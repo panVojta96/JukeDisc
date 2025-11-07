@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.logo {
+    height: 40px;
+}
+
+header {
+    border: 2px black solid;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+header a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+header a.active {
+    color: white;
+}
+
+.head-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.head-right {
+    float: right;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+
+.nabidka,
+.onas,
+.kontakt,
+.footer     {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    flex-direction: column;
+    padding: 25px;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
