@@ -10,48 +10,64 @@
 </head>
 
 <body>
-    <!-- includes zatím neni, až příště :) -->
+    <?php
+    include("includes/header.php")
+    ?>
 
-    <header>
-        <div class="head-centered">
-            <a href="index.php" class="active"><img class="logo" src="images/logo_wide.png" alt=""></a>
-        </div>
-        <a href="#onas">
-            <h2>O nás</h2>
-        </a>
-        <a href="#kontakt">
-            <h2>Kontakt</h2>
-        </a>
-        <div class="head-right">
-            <a href="katalog.php">
-                <h2>Katalog</h2>
-            </a>
-            <a href="vlastni_obj.php">
-                <h2>Vlastní objednávka</h2>
-            </a>
-        </div>
 
-    </header>
     <div class="pic">
-
     </div>
     <div class="nabidka">
         <H1>Nabídka</H1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo fugit aut excepturi soluta, omnis dolor voluptatum. Magni, explicabo delectus reprehenderit error cumque id perspiciatis consequuntur repudiandae corporis adipisci, voluptatibus aperiam?</p>
+        <div class="produkty">
+            <div class="produkt">
+                <img src="images/produkty/gitara.avif" alt="">
+            </div>
+            <div class="produkt">
+                <img src="images/produkty/kyt.avif" alt="">
+            </div>
+            <div class="produkt">
+                <img src="images/produkty/kytara.avif" alt="">
+            </div>
+            <div class="produkt">
+                <img src="images/produkty/bass.avif" alt="">
+            </div>
+            <div class="produkt">
+                <img src="images/produkty/ukulele.avif" alt="">
+            </div>
+        </div>
     </div>
     <div class="onas" id="onas">
         <h1>O nás</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatibus sapiente minima accusantium eveniet sint dicta voluptates maxime fuga doloribus, nisi quam dignissimos voluptas. Delectus nemo laboriosam autem voluptatibus voluptates.</p>
+        <p>JukeDisc je inovativní firma specializující se na
+            prodej hudebnin a všech produktů souvisejících s
+            hudbou. Byla založena v roce 2025 a rychle si získala
+            popularitu mezi hudebními nadšenci, profesionály i
+            začínajícími umělci. Firma nabízí široký sortiment
+            hudebních nástrojů, notových zápisů, hudebních knih
+            a dalších produktů pro muzikanty všech věkových
+            kategorií. JukeDisc&nbsp;s.&nbsp;r.&nbsp;o. se zaměřuje na kvalitní a
+            cenově dostupné produkty, přičemž klade důraz na
+            ekologické materiály a udržitelné výrobní procesy. Náš
+            slogan je „Najdi rytmus ve svém srdci“ odráží filozofii
+            otevřenosti a dostupnosti hudby pro širokou veřejnost.
+            JukeDisc rovněž podporuje mladé talenty prostřednictvím
+            pravidelných soutěží a mentorství, což z ní činí
+            významného hráče na poli hudební kultury.</p>
     </div>
     <div id="kontakt" class="kontakt">
-        <h1 >Kontakt</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, vel! Voluptate quis recusandae sit quisquam culpa sunt iste error odio vero aliquam id quidem libero dolor, repellat harum iure ex?</p>
-        
+        <h1>Kontakt</h1>
+        <div class="ins"><a href="https://instagram.com/jukedisc_" target="_blank">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+            <p>jukedisc_</p>
+        </div>
+
     </div>
-    <div class="footer">
-        <h3>© JukeDisc s. r. o. </h3>
-        <h3> Najdi rytmus ve svém srdci</h3>
-    </div>
+
+    <?php
+    include("includes/footer.php")
+    ?>
 </body>
 
 </html>
