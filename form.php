@@ -23,6 +23,10 @@ include ("includes/header.php")
                 <label for="email">Zadejte email: </label>
                 <input class="formin" type="email" name="email" id="email" required />
             </div>
+            <div class="form-exmple">
+                <label for="name">Zpráva: </label>
+                <input class="form-zprava" type="zprava" name="zprava" id="zprava" required />
+            </div>
             <div class="form-example">
                 <input class="submit" type="submit" value="Odeslat" />
             </div>

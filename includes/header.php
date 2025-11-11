@@ -7,7 +7,7 @@
             <a href="onas.php">
                 <h2>O nás</h2>
             </a>
-            <a href="index.php#kontakt">
+            <a href="kontakt.php">
                 <h2>Kontakt</h2>
             </a>
         </div>

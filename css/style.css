@@ -66,9 +66,11 @@ header a.active {
 .head-right {
     float: right;
 }
+
 .head-left {
     float: left;
 }
+
 .search {
     width: 250px;
 }
@@ -83,15 +85,16 @@ ul {
 .nabidka h1 {
     margin: 30px;
 }
+
 .nabidka {
     width: 100%;
     padding-top: 120px;
     padding-bottom: 80px;
 }
-.produkty {
+
+.produkty, .ky, .ba, .uk, .př, .el {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 40px;
     flex-wrap: wrap;
 }
@@ -109,7 +112,7 @@ ul {
 }
 
 .produkt:hover {
-    scale: 120%;
+    scale: 110%;
 }
 
 .produkt img {
@@ -150,7 +153,28 @@ ul {
     padding: 25px;
     gap: 20px;
 }
-
+.kontakt{
+    padding: 30px 100px;
+    padding-top: 120px;
+}
+.kontakt_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    width: 60%;
+}
+.h2{
+    margin-bottom: 15px;
+}
+.kontakt_main .a{
+        cursor: pointer;
+        padding: 9px 14px;
+        border: 2px solid gray;
+    border-radius: 20px;color: white;
+    background-color: black;
+}
 .team ul {
     gap: 5px;
     font-size: 17px;
@@ -194,14 +218,14 @@ a {
 }
 
 .ins img {
-    height: 50px;
+    height: 30px;
 }
 
 .ins {
     width: 100%;
+    padding-top: 15px;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .search {
@@ -220,6 +244,16 @@ a {
 
 form.form-example {
     display: table;
+}
+.form-zprava {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 500px;
+    height: 200px;
+    border-radius: 15px;
+    padding: 4px 8px;
+    font-size: 14px;
 }
 
 div.form-example {
@@ -242,7 +276,8 @@ input {
 .submit {
     border: black 2px solid;
     border-radius: 15px;
-    padding: 15px;
+    margin-top: 10px;
+    padding: 15px 20px;
     background-color: black;
     color: white;
 }
@@ -258,7 +293,73 @@ label {
     padding: 4px 8px;
     font-size: 14px;
 }
+.footer{
+    font-size: 13px;
+    margin-top: 50px;
+}
+/*Katalog */
+.katalog {
+    font-family: "Stack Sans Text";
+    overflow-x: hidden;
+}
 
+.kategorie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    padding-top: 150px;
+    border-bottom: 3px black solid;
+    margin-bottom: 10px;
+}
+
+.katalog_main {
+    display: flex;
+}
+
+.kategorie button {
+    border: none;
+    font-size: 25px;
+    padding: 11px 16px;
+    background-color: #efecec;
+        border: 2px solid gray;
+    border: hidden;
+
+}
+
+.kategorie button:hover {
+    cursor: pointer;
+        padding: 9px 14px;
+        border: 2px solid gray;
+    border-radius: 20px;
+}
+.ba, .uk, .př, .el{
+    display: none;
+}
+.parametry {
+    width: 400px;
+    height: 90vh;
+    border: 2px solid gray;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+.katalog_main .produkty {
+    padding: 30px 45px;
+    justify-content: flex-start;
+    width: 90%;
+}
+.katalog_main .produkt{
+    width: 230px;
+    height: 350px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.katalog_main .produkt img{
+    height: 200px;    
+}
 @media screen and (max-width:800px) {
     .logo {
         height: 30px;
@@ -267,22 +368,26 @@ label {
     header h2 {
         font-size: 17px;
     }
-    header{
+
+    header {
         position: absolute;
     }
+
     .head-right,
     .head_,
-    .head-left {      
+    .head-left {
         display: flex;
         flex-direction: column;
     }
+
     .head-centered a {
-    float: none;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+        float: none;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
     header a {
         padding: 5px 6px;
     }
@@ -388,4 +493,53 @@ label {
     .nabidka h1 {
         margin: 10px;
     }
+    /*Katalog */
+
+.kategorie {
+    padding: 10px 30px;
+    padding-top: 110px;
+    margin-bottom: 5px;
+    font-size: 10px;
+    flex-direction: column;
+}
+
+.katalog_main {
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kategorie button {
+    font-size: 20px;
+    padding: 7px 12px;
+}
+
+.kategorie button:hover {
+        padding: 4px 7px;
+}
+.parametry {
+    width: 80%;
+    height: 150px;
+    margin-left: 0px;
+}
+
+.katalog_main .produkty {
+    padding: 15px 35px;
+}
+.katalog_main .produkt{
+    width: 100px;
+    height: 200px;  
+    gap: 10px;
+    font-size: 10px;
+}
+.katalog_main .produkt img{
+    height: 100px;    
+}
+.produkty, .ky, .ba, .uk, .př, .el {
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
 }

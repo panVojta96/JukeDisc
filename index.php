@@ -55,15 +55,6 @@
             pravidelných soutěží a mentorství, což z ní činí
             významného hráče na poli hudební kultury.</p>
     </div>
-    <div id="kontakt" class="kontakt">
-        <h1>Kontakt</h1>
-        <div class="ins"><a href="https://instagram.com/jukedisc_" target="_blank">
-                <img src="images/instagram.png" alt="Instagram">
-            </a>
-            <p>jukedisc_</p>
-        </div>
-
-    </div>
 
     <?php
     include("includes/footer.php")
