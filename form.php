@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 </head>
+
 <body>
-    
+
     <?php
-include ("includes/header.php") 
-?>
+    include("includes/header.php")
+    ?>
     <div class="login">
         <form method="get" class="form-example">
             <div class="form-example">
@@ -25,7 +26,7 @@ include ("includes/header.php")
             </div>
             <div class="form-exmple">
                 <label for="name">Zpráva: </label>
-                <input class="form-zprava" type="zprava" name="zprava" id="zprava" required />
+                <textarea class="form-zprava" type="zprava" name="zprava" id="zprava" required></textarea>
             </div>
             <div class="form-example">
                 <input class="submit" type="submit" value="Odeslat" />
@@ -34,8 +35,9 @@ include ("includes/header.php")
     </div>
 
     <?php
-include ("includes/footer.php") 
-?>
+    include("includes/footer.php")
+    ?>
 
 </body>
+
 </html>

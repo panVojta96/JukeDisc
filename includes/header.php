@@ -21,12 +21,12 @@
         </div>
     </div>
     <div class="bottom">
-        <input class="search" type="search">
+        <input class="search" type="search" placeholder="Hledat">
         <div class="bottom_right">
             <a href="login.php">
                 <h2>Přihlásit se</h2>
             </a>
-            <img src="images/shop.png" alt="">
+            <a href="kos.php"><img src="images/shop.png" alt=""></a>
         </div>
     </div>
 </header>

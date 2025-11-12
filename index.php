@@ -19,22 +19,29 @@
     </div>
     <div class="nabidka">
         <H1>Nabídka</H1>
-        <div class="produkty">
-            <div class="produkt">
-                <img src="images/produkty/gitara.avif" alt="">
-            </div>
-            <div class="produkt">
-                <img src="images/produkty/kyt.avif" alt="">
-            </div>
-            <div class="produkt">
-                <img src="images/produkty/kytara.avif" alt="">
-            </div>
-            <div class="produkt">
-                <img src="images/produkty/bass.avif" alt="">
-            </div>
-            <div class="produkt">
-                <img src="images/produkty/ukulele.avif" alt="">
-            </div>
+        <div class="produktyn">
+            <a class="l" href="katalog.php">
+                <div class="produktn">
+                    <img src="images/produkty/gitara.avif" alt="">
+                </div>
+            </a>
+            <a class="l" href="katalog.php">
+                <div class="produktn">
+                    <img src="images/produkty/kyt.avif" alt="">
+                </div>
+            </a><a class="l" href="katalog.php">
+                <div class="produktn">
+                    <img src="images/produkty/kytara.avif" alt="">
+                </div>
+            </a><a class="l" href="katalog.php">
+                <div class="produktn">
+                    <img src="images/produkty/bass.avif" alt="">
+                </div>
+            </a><a class="l" href="katalog.php">
+                <div class="produktn">
+                    <img src="images/produkty/ukulele.avif" alt="">
+                </div>
+            </a>
         </div>
     </div>
     <div class="onas" id="onas">

@@ -56,7 +56,7 @@ include ("includes/header.php")
             </li>
             
             <li>
-                <p>Martin kříž - Marketingový kouzelník</p>
+                <p>Martin Kříž - Marketingový kouzelník</p>
             </li>
         </ul>
     </div>
