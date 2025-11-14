@@ -14,41 +14,52 @@
     <?php
     include("includes/header.php");
 
-    $ky_1 = 4190;
-    $ky_2 = 1610;
-    $ky_3 = 1990;
-    $ky_4 = 1690;
-    $ky_5 = 5490;
-    $ky_6 = 2290;
+    $ky_1 = "4 190";
+    $ky_2 = "1 610";
+    $ky_3 = "1 990";
+    $ky_4 = "1 690";
+    $ky_5 = "5 490";
+    $ky_6 = "2 290";
 
-    $el_1 = 31190;
-    $el_2 = 31190;
-    $el_3 = 31190;
-    $el_4 = 6390;
-    $el_5 = 6490;
-    $el_6 = 11790;
-    $el_7 = 17890;
+    $el_1 = "31 190";
+    $el_2 = "31 190";
+    $el_3 = "31 190";
+    $el_4 = "6 390";
+    $el_5 = "6 490";
+    $el_6 = "11 790";
+    $el_7 = "17 890";
 
-    $ba_1 = 12890;
-    $ba_2 = 9990;
-    $ba_3 = 46990;
-    $ba_4 = 10690;
+    $ba_1 = "12 890";
+    $ba_2 = "9 990";
+    $ba_3 = "46 990";
+    $ba_4 = "10 690";
 
-    $uk_1 = 8690;
-    $uk_2 = 1550;
-    $uk_3 = 2590;
-    $uk_4 = 1890;
-    $uk_5 = 1490;
+    $uk_1 = "8 690";
+    $uk_2 = "1 550";
+    $uk_3 = "2 590";
+    $uk_4 = "1 890";
+    $uk_5 = "1 490";
 
-    $př_1 = 239;
-    $př_2 = 199;
-    $př_3 = 549;
-    $př_4 = 149;
+    $př_1 = "239";
+    $př_2 = "199";
+    $př_3 = "549";
+    $př_4 = "149";
     ?>
     <script>
         function myFunction1() {
             var x = document.getElementById("myDIV1");
             x.style.display = "flex";
+            x.style.flexDirection = "column";
+            var x = document.getElementById("k1");
+            x.style.textDecoration = "underline"
+            var x = document.getElementById("k2");
+            x.style.textDecoration = "none"
+            var x = document.getElementById("k3");
+            x.style.textDecoration = "none"
+            var x = document.getElementById("k4");
+            x.style.textDecoration = "none"
+            var x = document.getElementById("k5");
+            x.style.textDecoration = "none"
             var x = document.getElementById("myDIV2");
             x.style.display = "none";
             var x = document.getElementById("myDIV3");
@@ -62,6 +73,17 @@
         function myFunction2() {
             var x = document.getElementById("myDIV2");
             x.style.display = "flex";
+            x.style.flexDirection = "column";
+            var x = document.getElementById("k2");
+            x.style.textDecoration = "underline"
+            var x = document.getElementById("k1");
+            x.style.textDecoration = "none"
+            var x = document.getElementById("k3");
+            x.style.textDecoration = "none"
+            var x = document.getElementById("k4");
+            x.style.textDecoration = "none"
+            var x = document.getElementById("k5");
+            x.style.textDecoration = "none"
             var x = document.getElementById("myDIV1");
             x.style.display = "none";
             var x = document.getElementById("myDIV3");
@@ -75,6 +97,18 @@
         function myFunction3() {
             var x = document.getElementById("myDIV3");
             x.style.display = "flex";
+            var x = document.getElementById("myDIV3");
+            x.style.flexDirection = "column";
+            var x = document.getElementById("k3");
+            x.style.textDecoration = "underline"
+            var x = document.getElementById("k2");
+            x.style.textDecoration = "none"
+            var x = document.getElementById("k1");
+            x.style.textDecoration = "none"
+            var x = document.getElementById("k4");
+            x.style.textDecoration = "none"
+            var x = document.getElementById("k5");
+            x.style.textDecoration = "none"
             var x = document.getElementById("myDIV2");
             x.style.display = "none";
             var x = document.getElementById("myDIV1");
@@ -88,6 +122,18 @@
         function myFunction4() {
             var x = document.getElementById("myDIV4");
             x.style.display = "flex";
+            var x = document.getElementById("myDIV4");
+            x.style.flexDirection = "column";
+            var x = document.getElementById("k4");
+            x.style.textDecoration = "underline"
+            var x = document.getElementById("k2");
+            x.style.textDecoration = "none"
+            var x = document.getElementById("k3");
+            x.style.textDecoration = "none"
+            var x = document.getElementById("k1");
+            x.style.textDecoration = "none"
+            var x = document.getElementById("k5");
+            x.style.textDecoration = "none"
             var x = document.getElementById("myDIV2");
             x.style.display = "none";
             var x = document.getElementById("myDIV3");
@@ -101,6 +147,18 @@
         function myFunction5() {
             var x = document.getElementById("myDIV5");
             x.style.display = "flex";
+            var x = document.getElementById("myDIV5");
+            x.style.flexDirection = "column";
+            var x = document.getElementById("k5");
+            x.style.textDecoration = "underline"
+            var x = document.getElementById("k2");
+            x.style.textDecoration = "none"
+            var x = document.getElementById("k3");
+            x.style.textDecoration = "none"
+            var x = document.getElementById("k4");
+            x.style.textDecoration = "none"
+            var x = document.getElementById("k1");
+            x.style.textDecoration = "none"
             var x = document.getElementById("myDIV2");
             x.style.display = "none";
             var x = document.getElementById("myDIV3");
@@ -120,20 +178,20 @@
         }
     </script>
     <div id="popupOverlay" class="popup-overlay">
-                                <div class="popup">
-                                    <h2>Něco se pokazilo!</h2>
-                                    <p>Zkuste to později</p>
-                                    <button class="close-btn" onclick="closePopup()">Zavřít</button>
-                                </div>
-                            </div>
+        <div class="popup">
+            <h2>Něco se pokazilo!</h2>
+            <p>Zkuste to později</p>
+            <button class="close-btn" onclick="closePopup()">Zavřít</button>
+        </div>
+    </div>
     <div class="katalog">
         <div class="katalog_main">
             <div class="parametry">
-                <button onclick="myFunction1()">Klasické kytary</button>
-                <button onclick="myFunction5()">Elektrické kytary</button>
-                <button onclick="myFunction2()">Baskytary</button>
-                <button onclick="myFunction3()">Ukulele</button>
-                <button onclick="myFunction4()">Příslušenství</button>
+                <button id="k1" onclick="myFunction1()">Klasické kytary</button>
+                <button id="k5" onclick="myFunction5()">Elektrické kytary</button>
+                <button id="k2" onclick="myFunction2()">Baskytary</button>
+                <button id="k3" onclick="myFunction3()">Ukulele</button>
+                <button id="k4" onclick="myFunction4()">Příslušenství</button>
             </div>
             <div class="produkty">
                 <div id="myDIV1" class="ky">
@@ -165,7 +223,7 @@
                         </div>
                         <div class="popis">
                             <p>Klasická kytara Blond OC-44 BK v 4/4 velikosti nabízí tělo zhotovené z vrstveného smrku a lípy, krk ze dřeva okoumé a hmatník a kobylku z moderního kompozitního materiálu. Struny jsou přes plastový nultý pražec uchyceny v klasických chromovaných mechanikách s bílými kolíčky. Stylové zpracování podtrhuje nanesený lesklý lak, černá úprava přední desky a tradiční prvky v podobě dekorativní rozety a plastové lemovky (ABS).</p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
                         </div>
                     </div>
 
@@ -181,7 +239,8 @@
                         </div>
                         <div class="popis">
                             <p>Dětská klasická kytara Blond OC-34 BB v 3/4 velikosti nabízí tělo zhotovené z vrstveného smrku a lípy, krk ze dřeva okoumé a hmatník a kobylku z moderního kompozitního materiálu. Struny jsou přes plastový nultý pražec uchyceny v klasických chromovaných mechanikách s bílými kolíčky. Stylové zpracování podtrhuje nanesený lesklý lak, Blue Burst finiš přední desky a tradiční prvky v podobě dekorativní rozety a plastové lemovky (ABS).</p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
 
@@ -196,7 +255,8 @@
                         </div>
                         <div class="popis">
                             <p>Dětská klasická kytara Blond OC-34 NAT v 3/4 velikosti nabízí tělo zhotovené z vrstveného smrku a lípy, krk ze dřeva okoumé a hmatník a kobylku z moderního kompozitního materiálu. Struny jsou přes plastový nultý pražec uchyceny v klasických chromovaných mechanikách s bílými kolíčky. Stylové zpracování podtrhuje nanesený lesklý lak a tradiční prvky v podobě dekorativní rozety a plastové lemovky (ABS).</p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
 
@@ -211,7 +271,8 @@
                         </div>
                         <div class="popis">
                             <p>Tato klasická kytara z řady Cort AC nabízí moderní prvky v podobě osazení kvalitní elektronikou Fishman nebo spodní výřez těla pro snazší hru na vysokých polohách hmatníku. Jedná se o cenově dostupný model vyrobený z kvalitních dřev charakteristický vřelým, hlubokým, tónem. Tak jako všechny modely z řady AC je i tato kytara poměrně velkorysá k preciznosti zahrání a odpustí řadu drobných chybek – představuje tak ideální nástroj pro začínající kytaristy.</p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
                 </div>
@@ -228,7 +289,8 @@
                         </div>
                         <div class="popis">
                             <p>Nové baskytary Element od firmy Cort v sobě kombinují ty nejlepší prvky ze série Artisan B, kvalitní zpracování a skvělý poměr cena/výkon, díky čemuž potěší nejen profesionální muzikanty, ale také hudební nadšence, kteří hledají opravdu kvalitní nástroj za rozumnou cenu.</p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
 
@@ -243,7 +305,8 @@
                         </div>
                         <div class="popis">
                             <p>JET JJB-300 SB je cenově dostupná čtyřstrunná elektrická baskytara v JB designu. Tělo z “pečeného” topolu zdobí stylový Sunburst finiš. Krk i hmatník nástroje jsou vyrobeny z rovněž tepelně upraveného dřeva kanadského javoru. Krk vyztužuje dvoucestná výztuha, plochu hmatníku rozděluje dvacet pražců a černé poziční tečky.</p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
 
@@ -258,7 +321,8 @@
                         </div>
                         <div class="popis">
                             <p>Elektrické baskytary Sandberg California TM jsou nástroje vycházející z léty osvědčeného designového konceptu Jazz Bass. Stejně jako ostatní nástroje Sandberg, i tyto jsou vyráběny v Německu, a to ze zcela prvotřídních materiálů týmem velmi zkušených kytarářů. O kvalitu se zde skutečně netřeba bát.</p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
 
@@ -273,7 +337,8 @@
                         </div>
                         <div class="popis">
                             <p>JET Guitars přináší nový pohled na svět elektrických baskytar, zaměřený na hráče všech úrovní. Model JPB-300 SG R je perfektní volbou pro baskytaristy, kteří hledají nejen skvělý výkon, ale i vizuální přitažlivost. Tento nástroj, s tělem z topolu, s krkem z kanadského pečeného javoru a hmatníkem z palisandru, nabízí vynikající hratelnost a výjimečný zvuk. Vysoce kvalitní snímače poskytují silné a hluboké basy, zatímco vyšší tóny zůstávají jasné a artikulované.</p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
 
@@ -291,7 +356,8 @@
                         </div>
                         <div class="popis">
                             <p>Maia Baritone EQ-A Natural je elektroakustické barytonové ukulele osazené kovovými strunami. Kombinace přední desky z masivu mangovníku a zadní desky a lubů z laminovaného palisandru poskytuje nástroji krásně vřelý bohatý zvuk, který je díky kovovým strunám i bez ozvučení dostatečně hlasitý. V rámci materiálů pro krk a hmatník padla volba na osvědčená dřeva, africký mahagon a palisandr, používaná u prémiových nástrojů.</p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
 
@@ -306,7 +372,8 @@
                         </div>
                         <div class="popis">
                             <p>Akustické ukulele pro leváky Cascha HH 2300L Concert Mahogany LH Black z řady Mahogany Series je cenově dostupný nástroj, který potěší děti i dospělé. Spolu s ukulele získáte i praktický polstrovaný obal a tři trsátka, takže můžete okamžitě vyrazit za zábavou.</p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
 
@@ -321,7 +388,8 @@
                         </div>
                         <div class="popis">
                             <p>Slovinská značka Flight je dalším zajímavým pojmem na poli výrobců ukulelí. Nabízí široké spektrum těchto populárních kompaktních nástrojů v klasických i méně tradičních tvarech a standardních velikostech. Začínající hráče a tuláky s muzikantskou duší potěší kvalitně zpracované cenově dostupnější modely ukulelí zhotovené z klasických i exotických dřevin v přírodních a barevných úpravách, nebo cestovní modely ukulelí z řady Travel Series s tělem z odolného plastu. Zkrátka nepřijdou ani náročnější muzikanti a profi hráči, kteří mohou vybírat ze špičkově zpracovaných polo/celomasivních modelů elektroakustických ukulelí.</p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
 
@@ -336,7 +404,8 @@
                         </div>
                         <div class="popis">
                             <p>Řada New Generation značky Bamboo představuje cenově dostupná ukulele v koncertní a sopránové velikosti ozdobená pestrobarevnými grafickými motivy. Sopránové ukulele s označením U-21 CROWN nabízí tělo zhotovené z lipové překližky, krk z okoumé, hmatník a kobylku z ořechu a uchycení strun přes nultý a sedlový pražec z kosti v mechanikách kytarového typu. Nástroj je dodáván v obalu.</p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
 
@@ -351,12 +420,13 @@
                         </div>
                         <div class="popis">
                             <p>Tělo sopránového ukulele NUS 350 Dreamcatcher je zhotoveno z laminovaného sapele, dřeva botanicky příbuzného s mahagonem/pravým mahagonem (proto bývá označováno jako sapele mahogany). Krk a hmatník nástroje jsou vyrobeny z afrického okoumé a ořechu, což je rovněž poměrně často používaná kombinace dřev. Struny jsou přes nultý a sedlový pražec z kosti ukotveny v ladicích mechanikách kytarového typu (Open Geared) a ořechové kobylce. Stylovost nástroje podtrhuje výrazná laserová rytina topu zhotovená podle ručně kreslené předlohy.</p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
 
                 </div>
-                <div id="myDIV4" class="př">
+                <div id="myDIV4" class="pr">
 
                     <div class="produkt">
                         <div class="produkt_main">
@@ -369,7 +439,8 @@
                         </div>
                         <div class="popis">
                             <p>Trsátka značky Fender ze série Aero Acrylic v sobě kombinují tradiční želvovinový design, léty ozkoušený tvar a jasný, artikulovaný tón akrylového materiálu. Ačkoliv svým vzhledem připomínají tradičnější celuloidová trsátka, jejich materiál je z tvrdšího a pevnějšího termoplastu, který z vaší kytary vytáhne pronikavý, expresivní tón. Okraje trsátek jsou jemně zkosené, což napomáhá plynulé hře bez nežádoucích přezvuků. Ideální také jako dárek pro kytarové nadšence.</p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
 
@@ -384,7 +455,8 @@
                         </div>
                         <div class="popis">
                             <p>Základní, cenově dostupné popruhy od americké značky D’addario ve třech barevných provedeních – černobílá, černočervená a černomodrá. Jsou vyrobeny z polyesteru a mají pevná koženková zakončení, takže zaručují bezpečné uchycení vašeho nástroje. Samozřejmostí je také nastavitelná délka.</p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
 
@@ -400,7 +472,8 @@
                         </div>
                         <div class="popis">
                             <p>Kytarový stojan Guitto GGS-15 se stane spolehlivým parťákem pro odložení vašeho nástroje a zároveň perfketním designovým prvkem do vašeho obýváku, ložnice nebo zkušebny. Pokud hledáte kvalitní a stabilní stojan pro svou kytaru nebo baskytaru, ale zároveň vám záleží na designu vašeho stojanu, tento kousek pro vás bude tou správnou volbou. Stojan je vyroben z pevného jasanového dřeva, které je jemně lakované tak, aby byla zachována přirozená kresba dřeva. V místech styku s nástrojem je stojan opatřen gumovou ochranou, která nástroj chrání proti poškrábání. Ať už hledáte stojan pro svou akustickou či elektrickou kytaru nebo baskytaru, Guitto GGS-15 vás zajisté nezklame.</p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
 
@@ -415,7 +488,8 @@
                         </div>
                         <div class="popis">
                             <p>Mute Noodle Guitar od společnosti Ernie Ball je praktická pomůcka, která vám umožní zkrotit zvuk vaší elektrické (či akustické) kytary. Díky gumovému materiálu získáte měkčí a tišší tón, který vám umožní jamovat po nocích, cvičit dlouhé hodiny, nebo eliminovat nežádoucí přezvuky při nahrávání. Jeho instalace je navíc velmi jednoduchá – tlumítko jednoduše nasunete na struny poblíž kobylky a můžete hrát.</p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
                 </div>
@@ -432,7 +506,8 @@
                         </div>
                         <div class="popis">
                             <p>Podoba elektrické kytary PRS Silver Sky je výsledkem úzké spolupráce mezi firmou PRS a bluesrockovým muzikantem a držitelem ceny Grammy Johnem Mayerem. Design nástroje vychází z oblíbených prvků vintage kytar J. Mayera okořeněných moderní estetikou a feelem.</p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
 
@@ -447,7 +522,8 @@
                         </div>
                         <div class="popis">
                             <p>Podoba elektrické kytary PRS Silver Sky je výsledkem úzké spolupráce mezi firmou PRS a bluesrockovým muzikantem a držitelem ceny Grammy Johnem Mayerem. Design nástroje vychází z oblíbených prvků vintage kytar J. Mayera okořeněných moderní estetikou a feelem.</p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
 
@@ -463,7 +539,8 @@
                         <div class="popis">
                             <p>Podoba elektrické kytary PRS Silver Sky je výsledkem úzké spolupráce mezi firmou PRS a bluesrockovým muzikantem a držitelem ceny Grammy Johnem Mayerem. Design nástroje vychází z oblíbených prvků vintage kytar J. Mayera okořeněných moderní estetikou a feelem.
                             </p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
 
@@ -479,7 +556,8 @@
                         <div class="popis">
                             <p>Elektrická kytara G200SE SRD značky Cort z řady G nabízí spojení modernějšího designu těla, HSS konfigurace snímačů a stylového retro finiše. Jedná se o cenově dostupnější nástroj, který jistě osloví začínající i zkušené muzikanty s lety praxe.
                             </p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
 
@@ -494,7 +572,8 @@
                         </div>
                         <div class="popis">
                             <p>Elektrická kytara G200SE ACR značky Cort z řady G nabízí spojení modernějšího designu těla, HSS konfigurace snímačů a stylového retro finiše. Jedná se o cenově dostupnější nástroj, který jistě osloví začínající i zkušené muzikanty s lety praxe.</p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
 
@@ -509,7 +588,8 @@
                         </div>
                         <div class="popis">
                             <p>Tělo elektrické kytary JJ-350 BGT v dobře známém offset designu je zhotoveno z pečeného topolu. Přišroubovaný krk z kanadského javoru a hmatník nástroje prošly před kompletací tepelnou úpravou, díky které je dřevo stabilnější a kytara zároveň získává vzhled a feel již vyzrálých nástrojů.</p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
 
@@ -524,7 +604,8 @@
                         </div>
                         <div class="popis">
                             <p>Elektrická kytara VS6V Green Metalflake 30th Anniversary v double-cut SG designu je součástí limitované řady, kterou britská značka Vintage Guitars slaví třicetiny. A takové patnáctiny krát dva je potřeba pořádně oslavit.</p>
-                        <button class="open-btn" onclick="openPopup()">Přidat do košíku</button></div>
+                            <button class="open-btn" onclick="openPopup()">Přidat do košíku</button>
+                        </div>
                     </div>
 
 

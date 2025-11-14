@@ -16,7 +16,7 @@ include ("includes/header.php")
 ?>
 
     <div class="onas_hero">
-        <h1>O nás</h1>
+        <h2>Cílem naší firmy je prodávat kvalitní hudební nástroje a hudební příslušenství za rozumné ceny.</h2>
         <p>JukeDisc je inovativní firma specializující se na
             prodej hudebnin a všech produktů souvisejících s
             hudbou. Byla založena v roce 2025 a rychle si získala
@@ -40,7 +40,7 @@ include ("includes/header.php")
                 <p>Svatopluk Krejsa - Ředitel firmy</p>
             </li>
             <li>
-                <p>Filip Strasser - Zástupce ředitele</p>
+                <p>Filip Strasser - Zástupce ředitele, hlavní grafik</p>
             </li>
             <li>
                 <p>Martin Kocián - Obchodní prodejce</p>
@@ -56,7 +56,7 @@ include ("includes/header.php")
             </li>
             
             <li>
-                <p>Martin Kříž - Marketingový kouzelník</p>
+                <p>Martin Kříž - Marketingový učenec</p>
             </li>
         </ul>
     </div>

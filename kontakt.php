@@ -22,20 +22,27 @@
                 <p>
                     Erbenova 184 <br>
                     344 01 Domažlice <br>
-<br>
+                    <br>
                     IČO: 25113137 <br>
                     DIČ: CZ25113137 <br>
-<br>
+                    <br>
                     Tel.: 567 091 420 <br>
                     E-mail: jukedisc@gmail.com
                 </p>
-            
-            <div class="ins"><a href="https://instagram.com/jukedisc_" target="_blank">
-                    <img src="images/instagram.png" alt="Instagram">
-                </a>
-                <p>jukedisc_</p>
-            </div></div>
-            <a class="a" href="form.php"><h2>Kontaktní formulář</h2></a>
+
+                <div class="ins"><a href="https://instagram.com/jukedisc_" target="_blank">
+                        <img src="images/instagram.png" alt="Instagram">
+                    </a>
+                    <p>jukedisc_</p>
+                </div>
+                <div class="ins"><a href="https://www.facebook.com/profile.php?id=61583937925442">
+                    <img src="images/fb.jfif" alt="">
+                    </a><p>JukeDisc Sro</p>
+                </div>
+            </div>
+            <a class="a" href="form.php">
+                <h2>Kontaktní formulář</h2>
+            </a>
         </div>
     </div>
 

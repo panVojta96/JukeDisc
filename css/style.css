@@ -30,6 +30,43 @@ body {
     overflow-x: hidden;
 }
 
+/*FLEX */
+ul,
+.produkt,
+.produktn,
+.pic,
+.nabidka,
+.onas,
+.kontakt,
+.footer,
+.onas_hero,
+.team,
+.kos,
+.kontakt_main,
+.login,
+.login form,
+.produkt_main,
+.popis,
+.l,
+.onas_hero h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nabidka,
+.onas,
+.kontakt,
+.footer,
+.onas_hero,
+.team,
+.kos,
+ul,
+.login form,
+.login {
+    flex-direction: column;
+}
+
 .logo {
     height: 40px;
 }
@@ -75,12 +112,6 @@ header a.active {
     width: 250px;
 }
 
-ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
 
 .nabidka h1 {
     margin: 30px;
@@ -97,7 +128,7 @@ ul {
 .ky,
 .ba,
 .uk,
-.př,
+.pr,
 .el {
     display: flex;
     align-items: center;
@@ -105,13 +136,14 @@ ul {
     flex-wrap: wrap;
 }
 
+.produktyn {
+    justify-content: center;
+}
+
 .produkt,
 .produktn {
     border: rgb(183, 183, 183) solid 1px;
     border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 170px;
     height: 280px;
     padding: 20px;
@@ -128,9 +160,6 @@ ul {
 }
 
 .pic {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: fit-content;
     background-color: black;
     background-position: center;
@@ -138,19 +167,6 @@ ul {
     background-size: cover;
     background-image: url(../images/back.webp);
     height: 100vh;
-}
-
-.nabidka,
-.onas,
-.kontakt,
-.footer,
-.onas_hero,
-.team,
-.kos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 }
 
 .kos {
@@ -217,9 +233,6 @@ ul {
 }
 
 .kontakt_main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
     gap: 50px;
     width: 60%;
@@ -262,7 +275,7 @@ a {
 .bottom {
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     font-size: 10px;
 }
 
@@ -286,7 +299,7 @@ a {
 
 .ins {
     width: 100%;
-    padding-top: 15px;
+    padding-top: 12px;
     display: flex;
     align-items: center;
 }
@@ -300,13 +313,6 @@ a {
 
 .login {
     padding-top: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-form.form-example {
-    display: table;
 }
 
 .form-zprava {
@@ -333,17 +339,6 @@ input {
 textarea {
     padding: 5px;
     resize: none;
-}
-
-.login form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.login {
-    flex-direction: column;
 }
 
 .login h2 {
@@ -408,9 +403,11 @@ label {
 
 .ba,
 .uk,
-.př,
-.el {
-    display: none;
+.pr,
+.el,
+.ky {
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .parametry {
@@ -444,9 +441,6 @@ label {
 
 .produkt_main,
 .popis {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
     font-size: 20px;
 }
@@ -473,9 +467,6 @@ label {
 }
 
 .l {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: row;
     width: fit-content;
 }
@@ -586,6 +577,10 @@ label {
         font-size: 14px;
     }
 
+    .onas_hero h2 {
+        font-size: 17px;
+    }
+
     .nabidka,
     .onas,
     .kontakt,
@@ -632,13 +627,6 @@ label {
         height: 25px;
     }
 
-    .search {
-        border-radius: 20px;
-        border: 2px black solid;
-        padding: 3px;
-        left: 5%;
-    }
-
     .nabidka {
         width: 100%;
         padding-top: 100px;
@@ -653,6 +641,10 @@ label {
 
     .login {
         padding-top: 150px;
+    }
+
+    .login h2 {
+        font-size: 17px;
     }
 
     label,
@@ -714,4 +706,11 @@ label {
     .a {
         font-size: 11px;
     }
+}
+
+@media screen and (max-width:450px) {
+    .produktn {
+        width: 90%;
+    }
+
 }

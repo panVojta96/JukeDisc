@@ -21,7 +21,6 @@
         </div>
     </div>
     <div class="bottom">
-        <input class="search" type="search" placeholder="Hledat">
         <div class="bottom_right">
             <a href="login.php">
                 <h2>Přihlásit se</h2>
